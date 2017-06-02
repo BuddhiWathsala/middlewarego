@@ -1,0 +1,19 @@
+hash: f698117fc3cf4a1594ce7e22dd8e896be4bfb999a846d2c7ce349c648b0b2e0d
+updated: 2017-06-02T17:36:00.086625611Z
+imports:
+- name: github.com/gin-gonic/gin
+  version: 4cc2de6207f4128624cbdd16be30f64966c67c08
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/handlers
+  version: a4043c62cc2329bacda331d33fc908ab11ef0ec3
+- name: github.com/gorilla/mux
+  version: bcd8bc72b08df0f70df986b97f95590779502d31
+- name: gopkg.in/mgo.v2
+  version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
+testImports: []

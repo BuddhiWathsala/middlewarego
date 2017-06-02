@@ -1,0 +1,11 @@
+package: .
+import:
+- package: github.com/gin-gonic/gin
+  version: 4cc2de6207f4128624cbdd16be30f64966c67c08
+- package: github.com/gorilla/handlers
+  version: v1.2.1
+- package: github.com/gorilla/mux
+  version: v1.4.0
+- package: gopkg.in/mgo.v2
+  subpackages:
+  - bson
