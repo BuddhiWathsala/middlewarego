@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+
+<servers>
+  <server>
+
+    <servername>Server 01</servername>
+    <service>
+        <name>getservice1</name>
+        <function>GetServiceOne</function>
+        
+    </service>
+    
+
+  </server>
+
+  <server>
+
+    <servername>Server 02</servername>
+    <service>
+        <name>getservice2/{category}</name>
+        <function>GetServiceTwo</function>
+        
+    </service>
+    
+
+  </server>
+  
+  <server>
+
+    <servername>Server 03</servername>
+    <service>
+        <name>getservice3</name>
+        <function>GetServiceThree</function>
+        
+    </service>
+    
+
+  </server>
+</servers>
