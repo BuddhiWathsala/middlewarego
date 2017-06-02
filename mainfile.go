@@ -48,8 +48,8 @@ func main() {
 	}
 
 	c := config{
-		addr:            "0.0.0.0:8081",
-		mongoConnString: "localhost:27017",
+		addr:            ":8081",
+		mongoConnString: ":27017",
 	}
 
 	mgoSess := newMongoSession(c.mongoConnString)
