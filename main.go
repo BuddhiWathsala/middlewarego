@@ -9,7 +9,6 @@ import (
 	"log"
 	"net/http"
 	"os"
-
 	"time"
 
 	"github.com/gorilla/handlers"
@@ -42,6 +41,7 @@ func main() {
 		for j := range middlewareServers.Servers[i].Services {
 
 			currentService := middlewareServers.Servers[i].Services[j]
+			//f := reflect.ValueOf(Foo{}).MethodByName(currentService.Servicefunction).Interface().(func())
 			router.HandleFunc(("/" + currentService.Servicename), getFunctionByName(currentService.Servicefunction))
 
 		}

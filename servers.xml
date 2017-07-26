@@ -30,7 +30,7 @@
 
     <servername>Server 03</servername>
     <service>
-        <name>getservice3</name>
+        <name>getservice3/{category}</name>
         <function>GetServiceThree</function>
         
     </service>
