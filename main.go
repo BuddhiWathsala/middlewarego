@@ -48,7 +48,7 @@ func main() {
 	}
 
 	c := config{
-		addr:            ":8081",
+		addr:            ":80",
 		mongoConnString: ":27017",
 	}
 
