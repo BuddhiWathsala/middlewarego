@@ -52,9 +52,9 @@ func main() {
 		mongoConnString: ":27017",
 	}
 
-	mgoSess := newMongoSession(c.mongoConnString)
+	//mgoSess := newMongoSession(c.mongoConnString)
 
-	loggerfile := handlers.LoggingHandler(os.Stdout, withMongo(logger(router, c), mgoSess))
+	loggerfile := handlers.LoggingHandler(os.Stdout, getHandler(logger(router, c), c))
 
 	srvr := http.Server{
 		Addr:         c.addr,
