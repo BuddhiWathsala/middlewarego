@@ -2,23 +2,23 @@
 {
   "name": "rtuin/somepackage",
   "description": "This is some package description",
-  "homepage": "https://github.com/rtuin/somepackage",
+  "homepage": "https://github.com/gin-gonic/gin",
   "license": "MIT",
   "version": "1.0.0",
   "authors": [
     {
       "name": "Richard Tuin",
       "email": "git@rtuin.nl",
-      "homepage": "http://www.rtuin.nl"
+      "homepage": "http://www.gin-gonic/gin.nl"
     }
   ],
   "autoload": {
-    "psr-4": {"Rtuin\\Somepackage": "src/"}
+    "psr-4": {"gin-gonic/gin\\gin": "src/"}
   },
   "require": {
-      "rtuin/someotherpackage": "^4.1",
+      "gin-gonic/gin/gin": "^4.1",
   },
   "require-dev": {
-    "rtuin/somedevdependency": "^5.3"
+    "gin-gonic/gin/gin": "^5.3"
   }
 }
