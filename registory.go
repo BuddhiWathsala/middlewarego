@@ -8,7 +8,6 @@ import (
 func getFunctionByName(funcName string) func(w http.ResponseWriter, r *http.Request) {
 	registry := map[string]func(w http.ResponseWriter, r *http.Request){
 		"GetServiceOne":   GetServiceOne,
-		"GetServiceTwo":   GetServiceTwo,
 		"GetServiceThree": GetServiceThree,
 	}
 
