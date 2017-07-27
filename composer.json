@@ -1,0 +1,24 @@
+// composer.json
+{
+  "name": "rtuin/somepackage",
+  "description": "This is some package description",
+  "homepage": "https://github.com/rtuin/somepackage",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Richard Tuin",
+      "email": "git@rtuin.nl",
+      "homepage": "http://www.rtuin.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"Rtuin\\Somepackage": "src/"}
+  },
+  "require": {
+      "rtuin/someotherpackage": "^4.1",
+  },
+  "require-dev": {
+    "rtuin/somedevdependency": "^5.3"
+  }
+}
