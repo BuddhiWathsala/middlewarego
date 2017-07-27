@@ -14,15 +14,7 @@
 
   </server>
 
-  <server>
-
-    <servername>Server 02</servername>
-    <service>
-        <name>getservice2/{category}</name>
-        <function>GetServiceTwo</function>
-        
-    </service>
-    
+  
 
   </server>
   
