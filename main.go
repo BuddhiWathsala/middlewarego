@@ -14,6 +14,7 @@ import (
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 )
+type key int
 const (
 
 	//iota : if confKey = 1 then mongoSessKey = 2,
