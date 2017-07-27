@@ -14,7 +14,9 @@ import (
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 )
+
 type key int
+
 const (
 
 	//iota : if confKey = 1 then mongoSessKey = 2,
@@ -22,6 +24,7 @@ const (
 	confKey key = iota
 	mongoSessKey
 )
+
 func main() {
 	router := mux.NewRouter()
 	/*router.HandleFunc("/getservice1", getFunctionByName("GetServiceOne"))
@@ -55,7 +58,7 @@ func main() {
 	}
 
 	c := config{
-		addr:            ":80",
+		addr:            ":8081",
 		mongoConnString: ":27017",
 	}
 
